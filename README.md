@@ -47,7 +47,7 @@ const tmpl = template`<div>Hellow World!</div>`
 
 The syntax is powered by [HTM](https://github.com/developit/htm), so you get bonuses such as self-closing tags (`<div/>`), components (`<${Foo}/>`), syntax-highlighting (e.g. [this VSCode plugin](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html), though requires additional configuration), etc. See [HTM's docs](https://github.com/developit/htm) for more info.
 
-👉 Use [HTM templates](https://www.w3schools.com/tags/tag_template.asp) (whether defined using `template` or not) to create elements:
+👉 Use [HTML templates](https://www.w3schools.com/tags/tag_template.asp) (whether defined using `template` or not) to create elements:
 ```js
 document.body.appendChild(use(tmpl))
 ```
